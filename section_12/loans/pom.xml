@@ -98,7 +98,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>eazybytes2/${project.artifactId}:s11.1</image>
+						<image>eazybytes2/${project.artifactId}:s12</image>
 					</to>
 				</configuration>
 			</plugin>

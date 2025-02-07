@@ -80,29 +80,29 @@ services:
       file: common-config.yml
       service: network-deploy-service
 
-#  prometheus:
-#    image: prom/prometheus:v3.1.0
-#    container_name: prometheus
-#    ports:
-#      - "9090:9090"
-#    volumes:
-#      - ../observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-#    extends:
-#      file: common-config.yml
-#      service: network-deploy-service
-#
-#  tempo:
-#    image: grafana/tempo:2.6.1
-#    container_name: tempo
-#    command: -config.file /etc/tempo-config.yml
-#    ports:
-#      - "3110:3100"
-#      - "4318:4318"
-#    volumes:
-#      - ../observability/tempo/tempo.yml:/etc/tempo-config.yml
-#    extends:
-#      file: common-config.yml
-#      service: network-deploy-service
+  prometheus:
+    image: prom/prometheus:v3.1.0
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ../observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
+
+  tempo:
+    image: grafana/tempo:2.6.1
+    container_name: tempo
+    command: -config.file /etc/tempo-config.yml
+    ports:
+      - "3110:3100"
+      - "4318:4318"
+    volumes:
+      - ../observability/tempo/tempo.yml:/etc/tempo-config.yml
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
 
   grafana:
     image: grafana/grafana:latest
@@ -215,7 +215,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "eazybytes2/configserver:s11.1"
+    image: "eazybytes2/configserver:s12"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -232,7 +232,7 @@ services:
       OTEL_SERVICE_NAME: "configserver"
 
   eurekaserver:
-    image: "eazybytes2/eurekaserver:s11.1"
+    image: "eazybytes2/eurekaserver:s12"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
@@ -253,7 +253,7 @@ services:
       OTEL_SERVICE_NAME: "eurekaserver"
 
   accounts:
-    image: "eazybytes2/accounts:s11.1"
+    image: "eazybytes2/accounts:s12"
     container_name: accounts-ms
     ports:
       - "9999:9999"
@@ -276,7 +276,7 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "eazybytes2/loans:s11"
+    image: "eazybytes2/loans:s12"
     container_name: loans-ms
     ports:
       - "8888:8888"
@@ -299,7 +299,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "eazybytes2/cards:s11"
+    image: "eazybytes2/cards:s12"
     container_name: cards-ms
     ports:
       - "7777:7777"
@@ -322,7 +322,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "eazybytes2/gatewayserver:s11"
+    image: "eazybytes2/gatewayserver:s12"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
