@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/section7/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section7/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section9/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section10/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section_10/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section_11/cards/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

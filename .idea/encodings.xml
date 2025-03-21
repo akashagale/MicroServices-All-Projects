@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/section10/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section10/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section10/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section10/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section10/gatewayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section10/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section7/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section7/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section7/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section7/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section8/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section8/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section8/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section8/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section8/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/gatewayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section9/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/gatewayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_10/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section_11/cards/src/main/java" charset="UTF-8" />
+  </component>
+</project>
